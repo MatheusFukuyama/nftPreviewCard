@@ -108,6 +108,7 @@ main {
   padding: 1.25rem;
   border-radius: 1.25rem;
   background-color: var(--clr-neutral-700);
+  box-shadow: 0px 1.5rem 20px 5px #0c1729;
 }
 main .equilibrium-view {
   position: relative;
@@ -144,7 +145,7 @@ main .equilibrium-view:hover .view {
   font-size: var(--fs-600);
   padding-bottom: 1.25rem;
   margin-bottom: 1rem;
-  border-bottom: 2px solid #2f415b;
+  border-bottom: 1px solid #2f415b;
 }
 .price-time .price {
   display: flex;
@@ -166,6 +167,7 @@ main .equilibrium-view:hover .view {
 .artist {
   display: flex;
   align-items: center;
+  font-size: var(--fs-600);
 }
 .artist img {
   width: 2.1875rem;
