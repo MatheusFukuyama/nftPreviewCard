@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --clr-primary-700: hsl(178, 100%, 50%);
+    --clr-primary-500: hsl(215, 51%, 70%);
+    --clr-primary-400: hsla(178, 100%, 50%, 0.5);
+
+    --clr-neutral-900: hsl(217, 54%, 11%);
+    --clr-neutral-700: hsl(216, 50%, 16%);
+    --clr-neutral-600: hsl(215, 32%, 27%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+
+    --ff-primary: 'Outfit', sans-serif;
+
+    --fs-900: 1.375rem;
+    --fs-700: 1.125rem;
+    --fs-600: 1rem;
+
+    @media screen and (max-width: 650px) {
+    }
+}

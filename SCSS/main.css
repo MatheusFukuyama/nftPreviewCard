@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Outfit:wght@300;400;600&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --clr-primary-700: hsl(178, 100%, 50%);
+  --clr-primary-500: hsl(215, 51%, 70%);
+  --clr-primary-400: hsla(178, 100%, 50%, 0.5);
+  --clr-neutral-900: hsl(217, 54%, 11%);
+  --clr-neutral-700: hsl(216, 50%, 16%);
+  --clr-neutral-600: hsl(215, 32%, 27%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --ff-primary: "Outfit", sans-serif;
+  --fs-900: 1.375rem;
+  --fs-700: 1.125rem;
+  --fs-600: 1rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--clr-neutral-900);
+  font-family: var(--ff-primary);
+  font-size: var(--fs-700);
+  color: var(--clr-primary-500);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-neutral-100);
+}
+a:hover {
+  color: var(--clr-primary-700);
+}
+
+h1 {
+  font-size: var(--fs-900);
+  margin: 1.5rem 0;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 300;
+}
+
+.lead {
+  width: 25ch;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  background-color: var(--clr-neutral-700);
+}
+main .equilibrium-view {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.625rem;
+  overflow: hidden;
+}
+main .equilibrium {
+  width: 18.75rem;
+}
+main .view {
+  display: none;
+  position: absolute;
+}
+main .cover {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-primary-400);
+}
+main .equilibrium-view:hover .cover {
+  display: block;
+}
+main .equilibrium-view:hover .view {
+  display: block;
+}
+
+.price-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--fs-600);
+  padding-bottom: 1.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #2f415b;
+}
+.price-time .price {
+  display: flex;
+  align-items: center;
+  padding-right: 0.3125rem;
+  color: var(--clr-primary-700);
+}
+.price-time .price img {
+  padding-right: 0.3125rem;
+}
+.price-time .time {
+  display: flex;
+  align-items: center;
+}
+.price-time .time img {
+  padding-right: 0.3125rem;
+}
+
+.artist {
+  display: flex;
+  align-items: center;
+}
+.artist img {
+  width: 2.1875rem;
+  border-radius: 50%;
+  border: 2px solid var(--clr-neutral-100);
+  margin-right: 0.625rem;
+}
+.artist a {
+  color: var(--clr-neutral-100);
+}
+.artist a:hover {
+  color: var(--clr-primary-700);
+}
+
+/*# sourceMappingURL=main.css.map */

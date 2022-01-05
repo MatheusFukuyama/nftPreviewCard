@@ -1,0 +1,28 @@
+.price-time {
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--fs-600);
+    padding-bottom: 1.25rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+
+    .price {
+        display: flex;
+        align-items: center;
+        padding-right: .3125rem;
+        color: var(--clr-primary-700);
+
+        img{
+            padding-right: .3125rem;
+        }
+    }
+
+    .time {
+        display: flex;
+        align-items: center;
+
+        img{
+            padding-right: .3125rem;
+        }
+    }
+}

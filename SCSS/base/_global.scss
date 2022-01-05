@@ -1,0 +1,37 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--clr-neutral-900);
+    font-family: var(--ff-primary);
+    font-size: var(--fs-700);
+    color: var(--clr-primary-500);
+}
+
+a {
+    text-decoration: none;
+    color: var(--clr-neutral-100);
+
+    &:hover {
+        color: var(--clr-primary-700);
+    }
+}
+
+h1 {
+    font-size: var(--fs-900);
+    margin: 1.5rem 0;
+    font-weight: 600;
+}
+
+
+p {
+    font-weight: 300;
+}
+
+.lead {
+    width: 25ch;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+}
