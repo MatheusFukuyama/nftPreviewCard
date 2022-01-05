@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/MatheusFukuyama/nftPreviewCard](https://github.com/MatheusFukuyama/nftPreviewCard)
-- Live Site URL: [https://www.frontendmentor.io/profile/MatheusFukuyama](https://www.frontendmentor.io/profile/MatheusFukuyama)
+- Live Site URL: [https://matheusfukuyama.github.io/nftPreviewCard/](https://matheusfukuyama.github.io/nftPreviewCard/)
 
 ## My process
 
